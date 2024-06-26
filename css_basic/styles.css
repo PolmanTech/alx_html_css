@@ -1,19 +1,49 @@
-
-body{
+body {
     display: flex;
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-main{
+main {
     display: flex;
-    flex: auto;
     flex-direction: row;
-}
-article{
-    flex: 2;
-    overflow-y: auto;
 }
 aside{
     flex: 1;
     overflow-y: auto;
-    float: right;
+    order: 1;
+    font-size: small;
+    border-style: groove;
+
+}
+article{
+flex: 2;
+overflow-y: auto;
+}
+
+header{
+background-color:#ccd7d5;
+height: 90px;
+width: auto;
+}
+
+footer{
+    background-color: black;
+color: white;
+height: 60px;
+width: auto;
+border-style: solid;
+}
+h1{
+    color: #3B9FCE;
+    font-style: italic;
+}
+h2,h3{
+    color: #3B9FCE;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/564x/e8/5c/64/e85c649e2b67e2cd482ec69930ac3733.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
