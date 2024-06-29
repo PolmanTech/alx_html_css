@@ -12,7 +12,6 @@ aside{
     overflow-y: auto;
     order: 1;
     font-size: small;
-    border-style: groove;
 
 }
 article{
@@ -24,6 +23,7 @@ header{
 background-color:#ccd7d5;
 height: 90px;
 width: auto;
+border-style:groove;
 }
 
 footer{
@@ -39,6 +39,7 @@ h1{
 }
 h2,h3{
     color: #3B9FCE;
+    color:var(--favorite-color)
 }
 
 body {
@@ -47,3 +48,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+:root{
+    --favorite-color:black
+    --header-text-color:white
+}
+
+table {
+    border-collapse: collapse;
+    border: solid black 1px;
+    width: 250px;
+    height: 150px;
+  }
+  td,th {
+    border: solid 1px black;
+  }
