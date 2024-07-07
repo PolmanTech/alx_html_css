@@ -32,7 +32,7 @@ header {
 .logo img{
    height: 32px;
 }
-
+/*--------------------------------Nav styles------------------------------------------------*/
 .navbar{
     display: flex;
     width: 85%;
@@ -56,7 +56,7 @@ a:hover {
     color: brown;
 }
 
-/* Mobile styles */
+
 .menu-toggle {
     display: none;
 }
@@ -67,7 +67,6 @@ a:hover {
     cursor: pointer;
 }
 
-/* Mobile styles */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -254,15 +253,14 @@ a:hover {
     
 }
 .descr {
-    /* Animation for heading */
+    /*-------------------- Animation*----------------------------------*/
     animation: scaleAnimation 1s ease-in-out infinite alternate;
 }
 .product:hover {
-    /* Hover effect for product items */
+    /*------------------------ Hover effect-----------------------------*/
     transform: scale(1.1);
 }
 .pentagon:hover {
-    /* Hover effect for product items */
     transform: scale(1.1);
 }
 @keyframes scaleAnimation {
@@ -274,7 +272,7 @@ a:hover {
     }
 }
 
-/* Mobiles */
+/*------------------------------smartphone style------------------------------- */
 @media (max-width: 768px) {
     .products{
         display: block;
@@ -295,13 +293,13 @@ a:hover {
     }
 }
 
-/* Desktop styles */
+/* -----------------------Desktop styles -------------------------------------*/
 @media (min-width: 769px) {
     
 }
 
 
-/* The form: contact us*/
+
 
 .page4{
     display: flex;
@@ -317,8 +315,8 @@ a:hover {
 
 .form-separator {
     border: none;
-    border-top: 1px solid #ccc; /* Adjust color and style */
-    margin: 20px 0; /* Adjust margin as needed */
+    border-top: 1px solid #ccc; 
+    margin: 20px 0; 
 }
 
 .p4-btn{
